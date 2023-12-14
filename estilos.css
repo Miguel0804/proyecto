@@ -1,0 +1,109 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.header{
+    background-image: url(https://images.unsplash.com/photo-1702276125956-18295ebdb086?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-attachment:  contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .menu{
+        background: 025464;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100px;
+        align-items: center;.
+    }
+        .logo{
+            background:  #E57C23;
+            flex: 1 1 auto;
+        }
+            a{
+                display: flex;
+                align-items: center;
+
+            }
+        .nav{
+            background: hsl(28, 79%, 52%);
+            flex:5 1 auto;
+        }
+        .social{
+            background: #E57C23;
+            flex: 1 1 auto;
+        }
+    .texto-principal{
+        background: #E8AA42;
+    }    
+     h1{
+        background: #FFFB73;
+     }
+.section{
+    background: #000;
+    display: flex;
+}
+    .articulos{
+        background: #3D30A2;
+        display: flex;
+        flex:2 1 auto;
+        flex-flow: row wrap;
+    }
+        .article{
+            background: #da138d;
+            flex: 1 1 40%;
+        }
+        .navegacion{
+            background: #A0E9FF;
+            flex: 1 1 100%;
+        }
+    .aside{
+        dis
+        background: #BE3144;
+        flex: 1 1 auto;
+    }    
+        .publicidad{
+            background: #EEF296;
+        }    
+.footer{
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+    .pie{
+        background:#9ADE7B;
+        width: 300px;
+    }
+@media all and (max-width: 800px){
+        .section{
+            flex-direction: column;
+        }
+        .menu{
+            flex-direction: column;
+            height: auto;
+        }
+        .aside{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+@media all and(max-width: 600px){
+        .articulos{
+    flex-direction: column;
+        }
+    }
+@media all and(max-width: 400px){
+        .aside{
+        f;
+        }
+    }    
